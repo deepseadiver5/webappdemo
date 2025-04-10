@@ -1,4 +1,6 @@
 
+////********* JUST SOME TEXT TO TEST GITHUB */
+
 // rework this as a to do list with Bootstrap cards
 // use images - save hrefs
 // time and date to complete
@@ -44,7 +46,8 @@ app.get('/products', async (req, res) => {
         res.render('index', { products: data, category: 'All'});
     }
 
-});
+    
+
 
 //cleaner version of the index
 // app.get('/products', async (req, res) => {
